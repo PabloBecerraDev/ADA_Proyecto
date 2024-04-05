@@ -16,11 +16,10 @@ def power_sums(X, N):
             else:
                 dp[i][j] = dp[i - 1][j] + dp[i][val]
 
-    # Devolvemos el último valor de la matriz dp
+    
     return dp[X][X]
 
-# Probamos la función con X = 10 y N = 2
-#print(power_sums(10, 2))
+
 
 #solucion 2 
 def contar_formas(X, N, actual=1):
