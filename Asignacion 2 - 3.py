@@ -5,4 +5,5 @@ def superDigito(n):
         sumaDigitos = sum(int(digit) for digit in str(n))
         return superDigito(sumaDigitos)
 
-print(superDigito(123))
+print(superDigito(12345))
+
